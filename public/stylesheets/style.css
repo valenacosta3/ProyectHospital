@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 0em;
+}
+
+h2 {
+  margin-top: 0.8em !important;
+  text-align: center;
+  color: #666;
+  margin-bottom: 0.5em !important;
+}
+
+table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+a,
+input[type="submit"] {
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 8px 12px;
+  background-color: #4c82af;
+  border: none;
+  font-size: medium;
+  border-radius: 4px;
+}
+
+.logoHospital{
+  display: flex;
+  justify-content: center;
+  vertical-align: baseline;
+  text-align: center;
+  align-items: center;
+  border-bottom: 5px solid #4c82af;
+}
+
+.logoHospital img{
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+.logoHospital h1{
+  margin-bottom: 1em;
+}
+
+.imagen{
+  margin-top: 2.2em;
+  height: 44em!important;
+}
+
+.linkSub{
+  margin-right: 1em;
+}
+
+.linkBotones{
+  margin-top: 2em;
+  text-decoration: none;
+  color: #ddd;
+  float: right;
+}
+
+a:hover,
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.volver {
+  background-color: #4cacaf;
+}
+
+.volver:hover {
+  background-color: #429396;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.btnPacientes{
+  display: flex !important;
+  height: 55px;
+}
+
+thead{
+  text-align: center;
+}
+
+.celdaMedicos td{
+  text-align: center !important;
+}
+
+.botPac{
+  float: right;
+}

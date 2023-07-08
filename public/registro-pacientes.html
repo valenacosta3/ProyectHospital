@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hospital</title>
+    <link rel="stylesheet" href="/stylesheets/style-formulario.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoHospital">
+            <img src="/images/logo hospital.png" alt="" width="99px">
+            <h1>Centro médico</h1>
+        </div>
+    </header>
+    <main>
+        <form action="./agregar" method="post">
+            <h2>REGISTRO DE PACIENTES</h2>
+            <label for="nombre">Nombre del paciente:<span> *</span></label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="apellido">Apellido:<span> *</span></label>
+            <input type="text" id="apellido" name="apellido" required><br>
+            <label for="cedula">Cedula:<span> *</span></label>
+            <input type="text" id="cedula" name="cedula" required><br>
+            <label for="edad">Edad:<span> *</span></label>
+            <input type="number" id="edad" name="edad" required><br>
+            <label for="telefono">Telefono:<span> *</span></label>
+            <input type="tel" id="telefono" name="telefono" required><br>
+            <a class="volver" href="/pacientes">Volver</a>
+            <input type="submit" value="Enviar" style="padding: 12px 16px; font-size: 16px;">
+        </form>
+    </main>
+</body>
+
+</html>
