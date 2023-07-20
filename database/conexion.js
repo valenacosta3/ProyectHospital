@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'brahan123456',//aqui va la contraseña de workbench
+    password: 'root',//aqui va la contraseña de workbench
     database: 'hospital',
     charset: 'utf8mb4' // Establecer el conjunto de caracteres en UTF-8
 });
